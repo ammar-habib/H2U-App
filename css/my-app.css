@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'nickname';
+    src: url("../fonts/nickname.otf");
+}
+.text-center{
+  text-align: center;
+}
+.padding-0{
+  padding: 0px;
+}
+.margin-0{
+  margin:0px;
+}
+.margin-top-18{
+  margin-top: 18%;
+}
+.margin-top-24{
+ margin-top: 25%;
+}
+.splash-page{
+  background-color: #81359F;
+}
+.vcenter{
+  margin-top: 40%;
+}
+.splash-screen-logo{
+  width: 40%;
+}
+.loading-text{
+  font-family: nickname; 
+  color: yellow;
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+.login-page{
+  background-color: #E0E1E1;
+  text-transform: uppercase;
+}
+.login-icon{
+  width: 70%;
+}
+.login-page input {
+  padding-left: 50px !important;
+  border: 2px solid !important;
+  border-radius: 9px !important;
+  height: 30px !important;
+  background-color: #CDD3DD !important;
+  border-color: #C9CCD2 !important; 
+  color: white !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  box-shadow: 0px 0px 10px #C9CCD2 !important;
+}
+.email-icon{
+  background: url("../img/login-email icon.png") left no-repeat !important;
+  background-size: 7% 50% !important;
+  background-position: 15px 8px !important;
+}
+.password-icon{
+  background: url("../img/login-lock icon.png") left no-repeat !important;
+  background-size: 5% 60% !important;
+  background-position: 18px 5px !important;
+}
+.login-btn-row{
+  height: 50px;
+  margin-top: -2%;
+}
+.login-btn{
+  background: url("../img/login-icon.png") no-repeat !important;
+  background-size: 30% 100% !important;
+  background-position: 50% !important;
+  color: white !important;
+  font-size: 14px;
+  padding-right: 8%;
+  height: 50px;
+  padding-top: 2%;
+}
+.custom-link{
+  color: #070707;
+  font-weight: bold;
+  font-size: 15px;
+}
+.signup-page-link{
+  background-color: #B6AF93;
+  border-radius: 5px; 
+  padding-top: 1.5%;
+  padding-bottom: 1%;
+  color: white;
+  font-weight: bold;
+}
+.custom-list-block ul::before{
+   content: none;
+}
+.custom-list-block ul::after{
+  content: none;
+}
+.input-field::after, .item-input-field::after {
+  content: none;
+}
+.custom-list-block .item-inner::after{
+  content: none;
+}
+.home-page{
+  /*background-color: #E0E1E1;*/
+  text-transform: uppercase;
+}
+.custom-navbar{
+  background-color: #841c86; 
+}
+.custom-navbar .center{
+ text-align: center !important;
+}
+.navbar-iogo{
+  width: 50%;
+  margin-left: 0%;
+}
+.profile-image{
+  width: 36%;
+  background: url('../img/mainMenuProfileImage.png');
+  margin-top: 5%;
+  margin-right: 5%;
+}
+.welcome{
+  font-family: nickname;
+  font-size: 25px;
+  font-weight: bold;
+}
+.c-bg{
+  background: #CF043C; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#CF043C, #950005); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#CF043C, #950005); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#CF043C, #950005); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#CF043C, #950005); /* Standard syntax */
+  color: white;
+  font-size: 14px;
+}
+.ub-bg{
+  background: #F6012D; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#F6012D, #C00004); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#F6012D, #C00004); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#F6012D, #C00004); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#F6012D, #C00004); /* Standard syntax */
+  color: white;
+font-size: 14px;
+}
+.avl-bg{
+  background: #FF6825; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#FF6825, #D03A07); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FF6825, #D03A07); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FF6825, #D03A07); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FF6825, #D03A07); /* Standard syntax */
+  color: white;
+font-size: 14px;
+}
+.bgv-bg{
+  background: #14C38C; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#14C38C, #028853); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#14C38C, #028853); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#14C38C, #028853); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#14C38C, #028853); /* Standard syntax */
+  color: white;
+  font-size: 14px;
+}
+.lo-bg{
+  background: #14C38C; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#14C38C, #028853); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#14C38C, #028853); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#14C38C, #028853); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#14C38C, #028853); /* Standard syntax */
+  color: white;
+  font-size: 14px;
+}
+.calender-icon{
+  width: 12%;
+}
+.bd-icon{
+  width: 8%;
+}
+.video-icon{
+   width: 8%;
+}
+.gift-icon{
+  width: 8%;
+}
+.img-bodar{
+ background: url('../img/mainMenuProfileImage2.png') no-repeat;
+ background-size: 60% 120%;
+ height: 150px;
+ background-position: 48% 48%;
+ background-attachment: fixed; 
+}
+.margin-0 .item-link .item-inner{
+  background-image: none;
+}
+.title-li-bg{
+  background-color: #10C1B7;
+  color: white;
+  font-size: 14px; 
+}
+.title-li-bg .item-inner{
+  padding: 15 0px;
+}
+
+.detail-li-bg{
+  background: #D2D9E3; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#D2D9E3, #C9CDD8); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#D2D9E3, #C9CDD8); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#D2D9E3, #C9CDD8); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#D2D9E3, #C9CDD8); /* Standard syntax */
+  color: white;
+  font-size: 14px;
+  border-top: 1px solid;
+  border-color: rgba(0,0,0,.12);
+}
+.detail-li-bg .item-inner::after{
+ content: none;
+}
