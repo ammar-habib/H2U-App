@@ -184,11 +184,22 @@ font-size: 14px;
   width: 8%;
 }
 .img-bodar{
- background: url('../img/mainMenuProfileImage2.png') no-repeat;
- background-size: 60% 120%;
- height: 150px;
- background-position: 48% 48%;
- background-attachment: fixed; 
+  background-size: 100% 100%;
+  height: 250px;
+  background-position: center;
+  width: 250px;
+  margin: 0 auto;
+  position: relative;
+}
+.img-bodar img {
+  max-width: 60%;
+  position: absolute;
+  max-height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 .margin-0 .item-link .item-inner{
   background-image: none;
